@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.mid{
+    margin: 2% 0 2% 0;
+    text-align: center;
+}
+#start{
+    margin: 2% 0 0 0;
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(21, 126, 28);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.ic{
+    position: absolute;
+    margin: 1%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.counter{
+    color: green;
+    text-align: center;
+    margin-top: 2%;
+    display: none;
+}
+
+#end{
+    background-color: red;
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+   display: none;
+    
+}
+.bulb{
+    display: flex;
+    justify-content: space-evenly;
+}
+.red{
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    opacity: 0.1;
+    
+}
+.blue{
+    background-color: blue;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    opacity: 0.1;
+    
+}
+.yellow{
+    background-color: yellow;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    opacity: 0.1;
+    
+}
+.green{
+    background-color: green;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    opacity: 0.1;
+    
+}
+
+.buttons{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn1{
+    display: none;
+    height: 40px;
+    width: 80px;
+    color: white;
+    border:none;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 4%;
+}
+.inst{
+    display: none;
+    position: absolute;
+    margin: 3%;
+    z-index: 1;
+    width: 40%;
+    background-color:rgb(243, 242, 242);
+    padding-left: 4%;
+}
+ul{
+    list-style-type: disc;
+}
